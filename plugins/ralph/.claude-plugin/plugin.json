@@ -1,0 +1,10 @@
+{
+  "name": "ralph",
+  "version": "1.0.0",
+  "description": "Ralph Wiggum loop - continuous Claude execution with repomirror visualization",
+  "author": {
+    "name": "Bradley Golden"
+  },
+  "license": "MIT",
+  "commands": ["./commands/"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ralph-claude-plugin",
+  "owner": {
+    "name": "Bradley Golden"
+  },
+  "plugins": [
+    {
+      "name": "ralph",
+      "source": "./plugins/ralph",
+      "description": "Ralph Wiggum loop - continuous Claude execution with repomirror visualization",
+      "version": "1.0.0"
+    }
+  ]
+}
