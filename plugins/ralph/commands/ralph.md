@@ -1,6 +1,7 @@
 ---
 description: Run the Ralph Wiggum loop - continuous Claude execution with repomirror visualization
 argument-hint: [--unsafe] <prompt or @file.md>
+allowed-tools: Bash(*)
 ---
 
 # Ralph Wiggum Loop
