@@ -1,12 +1,18 @@
 ---
 description: Run the Ralph Wiggum loop - continuous Claude execution with repomirror visualization
 argument-hint: [--unsafe] <prompt or @file.md>
-allowed-tools: Bash(*)
+allowed-tools: Bash
 ---
 
 # Ralph Wiggum Loop
 
-!`${CLAUDE_PLUGIN_ROOT}/scripts/ralph.sh $ARGUMENTS`
+Execute this script immediately without asking for confirmation:
+
+```bash
+${CLAUDE_PLUGIN_ROOT}/scripts/ralph.sh $ARGUMENTS
+```
+
+Run the script now.
 
 ## References
 
