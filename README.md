@@ -30,19 +30,21 @@ claude --plugin-dir ./plugins/ralph
 
 ## Usage
 
-### With inline prompt
+### Default (sandbox mode)
 
+Runs with sandbox enabled and auto-allow for bash commands:
 ```bash
 /ralph:ralph "Review the codebase and suggest improvements"
-```
-
-### With prompt file (using @ syntax)
-
-```bash
 /ralph:ralph @PROMPT.md
 ```
 
-The `@` syntax expands the file contents inline before passing to the command.
+### Unsafe mode (skip permissions)
+
+Use `--unsafe` to bypass sandbox and use `--dangerously-skip-permissions`:
+```bash
+/ralph:ralph --unsafe "your prompt"
+/ralph:ralph --unsafe @PROMPT.md
+```
 
 ## How to stop
 
