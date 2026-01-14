@@ -1,6 +1,6 @@
 {
   "name": "ralph",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ralph Wiggum loop - continuous Claude execution with repomirror visualization",
   "author": {
     "name": "Bradley Golden"

@@ -46,6 +46,25 @@ Use `--unsafe` to bypass sandbox and use `--dangerously-skip-permissions`:
 /ralph:ralph --unsafe @PROMPT.md
 ```
 
+### Specify a model
+
+Use `--model` to specify which Claude model to use:
+```bash
+/ralph:ralph --model opus "your prompt"
+/ralph:ralph --model haiku "quick task"
+/ralph:ralph --model sonnet @PROMPT.md
+```
+
+Valid model values: `sonnet`, `opus`, `haiku`, or full model IDs.
+
+### Combine flags
+
+Flags can be combined in any order:
+```bash
+/ralph:ralph --unsafe --model opus "your prompt"
+/ralph:ralph --model haiku --unsafe @PROMPT.md
+```
+
 ## How to stop
 
 Press `Ctrl+C` to stop the loop.
